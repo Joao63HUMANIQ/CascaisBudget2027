@@ -1,0 +1,12 @@
+{
+  "name": "cascaisbudget2027-private",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Password-protected static publication of CascaisBudget2027 using StatiCrypt and GitHub Pages.",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "staticrypt": "3.5.4"
+  }
+}
