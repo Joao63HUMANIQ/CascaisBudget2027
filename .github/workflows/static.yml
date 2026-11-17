@@ -3,7 +3,7 @@ name: Deploy password-protected site to GitHub Pages
 
 on:
   push:
-    branches: ["private-v1"]
+    branches: ["main"]
   workflow_dispatch:
 
 concurrency:
